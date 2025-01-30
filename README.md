@@ -63,5 +63,41 @@
 - ６０日以上経過したアーカイブファイルの削除
 
 ### ◆デモ  
+ファイル作成からフォーマットチェック、転送、突合、アーカイブ作成・削除の一連の流れを説明します。(手動実行)  
+
+〈ファイル作成〉  
+clientコンテナ内で以下のコマンドを実行します。  
+`python3 /usr/local/sbin/stock_csv_create.py`  
+
+[実行結果]  
+![ファイル作成コマンド実行結果](https://github.com/user-attachments/assets/d6986601-3579-42d3-ba38-f53c1c03a722)  
 
 
+〈フォーマットチェック〉
+clientコンテナ内で以下のコマンドを実行します。  
+`python3 /usr/local/sbin/csv_check.py`  
+
+[実行結果]
+![フォーマットチェックコマンド実行結果](https://github.com/user-attachments/assets/be8991ec-01e4-4ea1-837b-fe5de9a01b9a)  
+
+
+〈ファイル転送〉  
+serverコンテナ内で以下のコマンドを実行し、パーミッションを変更します。  
+※SFTPを使用するため、このときclient側でキーペアを生成し、サーバーに公開鍵を配置する工程がありますが割愛させていただきます。
+`chmod 775 /`  
+次にclientコンテナ内で以下のコマンドを実行します。  
+`/usr/local/sbin/transfer.sh`
+
+[実行結果]  
+1. transfer.shを実行
+![transfer.sh実行](https://github.com/user-attachments/assets/8007d193-eeea-47bb-bf69-4b2a68845afe)  
+2. serverコンテナにファイルが転送されていることを確認  
+![サーバーにファイルが転送されている](https://github.com/user-attachments/assets/893ab6d2-a802-4c0e-9c18-5f44fd257f8b)
+
+
+
+
+
+
+
+　　
