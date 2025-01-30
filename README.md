@@ -39,16 +39,16 @@
 
 ### ◆ドキュメント  
 データ仕様書  
-[データ仕様書.pdf](https://github.com/user-attachments/files/18596942/-.pdf)
+[データ仕様書.pdf](https://github.com/user-attachments/files/18596942/データ仕様書.pdf)
 
 接続仕様書  
-[接続仕様書.pdf](https://github.com/user-attachments/files/18596925/xlsx.-.ver3.00.pdf)  
+[接続仕様書.pdf](https://github.com/user-attachments/files/18596925/接続仕様書.pdf)  
 
 バッチ一覧  
-[バッチ一覧.pdf](https://github.com/user-attachments/files/18596955/default.pdf)
+[バッチ一覧.pdf](https://github.com/user-attachments/files/18596955/バッチ一覧.pdf)
 
 テスト仕様書  
-[テスト仕様書.pdf](https://github.com/user-attachments/files/18596930/default.pdf)
+[テスト仕様書.pdf](https://github.com/user-attachments/files/18596930/テスト仕様書.pdf)
 
 ### ◆機能
 クライアント側  
