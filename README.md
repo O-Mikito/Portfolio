@@ -38,7 +38,7 @@
 - Python (pandas, Numpy, subprocess, csv, os, mysql.connector)
 - Shellscript
 - (S)FTP
-- SSH
+- SSH(公開鍵認証)
 <br><br>
 
 ### ◆システム構成図
