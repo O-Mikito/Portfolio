@@ -39,8 +39,7 @@
 - SSH  
 ### ◆システム構成図
 ![システム構成図](https://github.com/user-attachments/assets/f4a40a97-f23d-46ff-8888-19bc110135da)
-### ◆シーケンス図  
-シーケンス図  
+### ◆シーケンス図   
 ![シーケンス図](https://github.com/user-attachments/assets/bc649177-4db0-45b3-b0fd-4c83d7d0c6d2)  
 
 ### ◆ドキュメント  
